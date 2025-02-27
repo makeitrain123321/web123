@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: Bgo;
+    src: url(../fonts/Bgo.ttf);
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/Josefin_sans.ttf);
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(117, 142, 72);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 15px rgba(59, 72, 36, 0.751);
+
+}
+header h1{
+    font-family: Bgo;
+    font-size: 13px;
+    padding: 13px;
+    color: white;
+}
+header p{
+    font-family: JosefinSans;
+    font-size: 14px;
+    padding: 13px;
+    color: white;
+    font-weight: bolder;
+}
+/* Header end */ 
+main .Intro{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .Intro section{
+    padding: 40px;
+    width: 500px;
+    background-color: rgba(118, 142, 72, 0.553);
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(59, 72, 36, 0.751);
+}
+main .Intro section p{
+    font-family: Bgo;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+main a{
+    height: 40px;
+    width: 200px;
+    display: block;
+    background-color: rgba(118, 142, 72, 0.553);
+    margin: -50px auto;
+    border-radius: 50px;
+    font-family: Bgo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+main a:hover{
+    background-color: rgb(231, 231, 231);
+    color: rgb(117, 142, 72);
+    box-shadow: 0 2px 15px rgba(59, 72, 36, 0.751);
+    transition: ease 0.3s;
+}
+main .Answer{
+    width: 100%;
+    background-color: rgba(118, 142, 72, 0.553);
+    margin: 90px auto;
+    text-align: center;
+    font-family: Bgo;
+    padding: 50px;
+    color: white;
+}
+main .Answer h2{
+    padding-top: 10px;
+}
+main .Answer p{
+    padding-top: 10px;
+}
+main .Pls_10{
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    opacity: 0.5;
+}
